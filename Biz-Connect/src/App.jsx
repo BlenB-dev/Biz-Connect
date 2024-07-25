@@ -5,9 +5,11 @@ import Navbar from './components/Navbar';
 import FeatureSection from './components/FeatureSection';
 import Footer from './components/Footer';
 import Testimonials from './components/Testimonials';
-import Login from './components/Pages/login';
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import ServiceProviders from './components/Pages/ServiceProviders';
+
+
 
 const App = () => {
   return (
@@ -16,9 +18,9 @@ const App = () => {
         <Navbar />
         <div className="max-w-7xl mx-auto pt-20 px-6">
           <Routes>
-            <Route path="/login" element={<Login />} />
+         
 
-            <Route path="/ServiceProviders" element={<ServiceProviders />} />
+            <Route path="/ServiceProvider" element={<ServiceProviders />} />
             <Route path="/" element={
               <>
                 <FirstSection />
