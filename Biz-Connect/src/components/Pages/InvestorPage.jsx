@@ -3,7 +3,7 @@ import Sliderimage from '../Sliderimage';
 import InvestorProfile from './InvestorProfile';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-// Import other components here
+import Dropdownlist from '../Pages/Dropdownlist'
 
 // Example list of startups
 const exampleStartups = [
@@ -35,6 +35,7 @@ function InvestorPage() {
   });
 
   return (
+
       <div className="container mx-auto px-4 py-8">
           {/* Sliderimage Component */}
           <div className="ml-auto">
@@ -82,6 +83,9 @@ function InvestorPage() {
               )}
           </section>
       </div>
+
+    
+
   );
 }
 
