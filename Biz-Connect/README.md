@@ -1,8 +1,5 @@
-# React + Vite
+Biz-Connect Addis
+The city's dynamic environment, coupled with a growing pool of young, innovative minds, has led to an increase in the number of startups. However, despite this burgeoning entrepreneurial spirit, many startups face significant challenges in accessing necessary services and securin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Capture](https://github.com/user-attachments/assets/6b9b6a51-e23e-4d96-9bb5-fa723de8ec6b)
+![Capture2](https://github.com/user-attachments/assets/2f0f787f-1085-4468-93bb-a51754f91426)
