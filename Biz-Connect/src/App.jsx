@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import InvestorPage from './components/Pages/InvestorPage';
 import Sliderimage from './components/Sliderimage';
 
+
 const Maincontent=()=>{
   const location = useLocation();
   return(
@@ -33,7 +34,7 @@ const Maincontent=()=>{
             <FormPage />
             <Footer />
             <Sliderimage/>
-
+         
           </>
         } />
       </Routes>

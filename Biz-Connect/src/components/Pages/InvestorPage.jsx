@@ -3,19 +3,17 @@ import Sliderimage from '../Sliderimage';
 import InvestorProfile from './InvestorProfile';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-// Import other components here
+import Dropdownlist from '../Pages/Dropdownlist'
 
 function InvestorPage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      {/* Sliderimage Component */}
       <div className="ml-auto">
         <Sliderimage />
       </div>
        <InvestorProfile/>
        
-
-       <form class="flex w-[910px] ml-[-100px] mt-10 ">   
+   <form class="absoulte flex w-[910px] ml-[-100px] mt-[100px] ">   
     <label for="simple-search" class="sr-only">Search</label>
     <div class="relative w-full">
         <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -62,31 +60,38 @@ function InvestorPage() {
 </div>
 
 <hr class="h-px my-8 bg-gray-200 border-1 dark:bg-gray-700 mt-[10px] ml-[-80px] w-[890px]"></hr>
+
+
   <div
-    class="inline-block h-[1000px] w-0.5 bg-neutral-100 dark:bg-white/10 ml-[990px] mt-[-110px]">
+    class="absolute z-20 space-y-8 inline-block h-[600px] w-0.5 bg-neutral-100 dark:bg-white/10 ml-[890px] mt-[-180px]">
+      <Dropdownlist/> 
+      <Dropdownlist/> 
+      <Dropdownlist/> 
+      <Dropdownlist/> 
+      <Dropdownlist/> 
   </div>
 
+  <div className='relative'>
+  <div className="absoulte  space-y-8 pace-y-8 relative" style={{ marginLeft: -97, marginTop: 0 }}>
+    <div className="bg-gray-100 p-4 rounded-lg shadow-md w-[900px]" style={{ height: 200 }}>
+      <h2 className="text-xl font-semibold">Component 1</h2>
+      <p>This is a placeholder for another component.</p>
+    </div>
 
-   
+    <div className="bg-gray-100 p-4 rounded-lg shadow-md w-[900px]" style={{ height: 200 }}>
+      <h2 className="text-xl font-semibold">Component 2</h2>
+      <p>This is a placeholder for another component.</p>
+    </div>
 
-  <div className="space-y-8 relative" style={{ marginLeft: -97, marginTop: -900 }}>
-  <div className="bg-gray-100 p-4 rounded-lg shadow-md w-[900px]" style={{ height: 200 }}>
-    <h2 className="text-xl font-semibold">Component 1</h2>
-    <p>This is a placeholder for another component.</p>
-  </div>
-
-  <div className="bg-gray-100 p-4 rounded-lg shadow-md w-[900px]" style={{ height: 200 }}>
-    <h2 className="text-xl font-semibold">Component 2</h2>
-    <p>This is a placeholder for another component.</p>
-  </div>
-
-  <div className="bg-gray-100 p-4 rounded-lg shadow-md w-[900px]" style={{ height: 200 }}>
-    <h2 className="text-xl font-semibold">Component 3</h2>
-    <p>This is a placeholder for another component.</p>
+    <div className="bg-gray-100 p-4 rounded-lg shadow-md w-[900px]" style={{ height: 200 }}>
+      <h2 className="text-xl font-semibold">Component 3</h2>
+      <p>This is a placeholder for another component.</p>
+    </div>
   </div>
 </div>
 
-      {/* Add more components as needed */}
+
+
     </div>
     
   );
