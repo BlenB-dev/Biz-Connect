@@ -1,0 +1,147 @@
+.contact {
+    position: absolute;
+    top: 19.39px;
+    left: 91.09px;
+    display: inline-block;
+    width: 98.7px;
+    height: 51.6px;
+}
+.profile-picture-of-woman-in-bl {
+    position: absolute;
+    top: 0px;
+    left: 187.6px;
+    width: 249.4px;
+    height: 54.5px;
+    object-fit: cover;
+}
+.home {
+    position: absolute;
+    top: 19.39px;
+    left: 0px;
+    display: inline-block;
+    width: 98.7px;
+    height: 37.5px;
+}
+.notifications-icon {
+    position: absolute;
+    top: 12.93px;
+    left: 201.69px;
+    width: 45.5px;
+    height: 29.5px;
+    overflow: hidden;
+}
+.navbarforserviceprovider {
+    position: absolute;
+    top: 25px;
+    left: 769px;
+    width: 437px;
+    height: 71px;
+}
+.logo-1-icon {
+    position: absolute;
+    top: -14px;
+    left: 43px;
+    width: 119px;
+    height: 119px;
+    object-fit: cover;
+}
+.frame-child {
+    position: absolute;
+    top: 146px;
+    left: 43px;
+    border-radius: 26px;
+    background-color: #f3f0f0;
+    width: 703px;
+    height: 135px;
+}
+.profile-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    width: 287.2px;
+    height: 155px;
+}
+.web-designer {
+    position: absolute;
+    top: 78.1px;
+    left: 93.93px;
+    display: inline-block;
+    width: 204.1px;
+    height: 31.2px;
+}
+.generic-avatar-icon {
+    position: absolute;
+    top: 20.43px;
+    left: 22.67px;
+    border-radius: 100px;
+    width: 68px;
+    height: 74.5px;
+    overflow: hidden;
+}
+.blen-b {
+    position: absolute;
+    top: 26.43px;
+    left: 102.57px;
+    text-decoration: underline;
+    display: inline-block;
+    width: 124.2px;
+    height: 31.2px;
+}
+.profile {
+    position: absolute;
+    top: 126px;
+    left: 792px;
+    width: 298px;
+    height: 155px;
+}
+.frame-item {
+    position: absolute;
+    top: 345px;
+    left: 792px;
+    border-radius: 31px;
+    background-color: #fff;
+    width: 318px;
+    height: 585px;
+}
+.search {
+    position: absolute;
+    top: 321.5px;
+    left: 59.5px;
+    border-radius: 9999px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    width: 639px;
+    height: 47px;
+    overflow: hidden;
+}
+.search-icon {
+    position: absolute;
+    top: 335px;
+    left: 66px;
+    width: 21px;
+    height: 21px;
+    overflow: hidden;
+}
+.biz-connect {
+    position: absolute;
+    top: 40px;
+    left: 172px;
+    display: inline-block;
+    width: 126px;
+    height: 25px;
+}
+.navbarforserviceprovider-parent {
+    width: 100%;
+    position: relative;
+    background-color: #f8f7f7;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #000;
+    font-family: Inter;
+}
+
